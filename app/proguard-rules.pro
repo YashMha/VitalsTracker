@@ -1,0 +1,3 @@
+-keepattributes SourceFile,LineNumberTable
+-keep class com.vitals.tracker.data.model.** { *; }
+-keep class com.vitals.tracker.rules.** { *; }

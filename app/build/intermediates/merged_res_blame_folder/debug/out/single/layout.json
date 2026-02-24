@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.vitals.tracker.app-mergeDebugResources-41:/layout/activity_patient_list.xml",
+        "source": "com.vitals.tracker.app-main-44:/layout/activity_patient_list.xml"
+    },
+    {
+        "merged": "com.vitals.tracker.app-mergeDebugResources-41:/layout/activity_add_patient.xml",
+        "source": "com.vitals.tracker.app-main-44:/layout/activity_add_patient.xml"
+    },
+    {
+        "merged": "com.vitals.tracker.app-mergeDebugResources-41:/layout/activity_add_vitals.xml",
+        "source": "com.vitals.tracker.app-main-44:/layout/activity_add_vitals.xml"
+    },
+    {
+        "merged": "com.vitals.tracker.app-mergeDebugResources-41:/layout/layout_vitals_section.xml",
+        "source": "com.vitals.tracker.app-main-44:/layout/layout_vitals_section.xml"
+    },
+    {
+        "merged": "com.vitals.tracker.app-mergeDebugResources-41:/layout/item_vitals.xml",
+        "source": "com.vitals.tracker.app-main-44:/layout/item_vitals.xml"
+    },
+    {
+        "merged": "com.vitals.tracker.app-mergeDebugResources-41:/layout/item_patient.xml",
+        "source": "com.vitals.tracker.app-main-44:/layout/item_patient.xml"
+    },
+    {
+        "merged": "com.vitals.tracker.app-mergeDebugResources-41:/layout/activity_patient_detail.xml",
+        "source": "com.vitals.tracker.app-main-44:/layout/activity_patient_detail.xml"
+    },
+    {
+        "merged": "com.vitals.tracker.app-mergeDebugResources-41:/layout/activity_dashboard.xml",
+        "source": "com.vitals.tracker.app-main-44:/layout/activity_dashboard.xml"
+    }
+]

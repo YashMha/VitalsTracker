@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:id="@+id/tvNoData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_vitals_today"
+        android:gravity="center"
+        android:padding="32dp"
+        android:textSize="16sp"
+        android:textColor="#888"
+        android:visibility="gone"/>
+
+    <ScrollView
+        android:id="@+id/scrollContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp">
+
+            <!-- Latest -->
+            <include
+                android:id="@+id/sectionLatest"
+                layout="@layout/layout_vitals_section"/>
+
+            <!-- Best -->
+            <include
+                android:id="@+id/sectionBest"
+                layout="@layout/layout_vitals_section"/>
+
+            <!-- Worst -->
+            <include
+                android:id="@+id/sectionWorst"
+                layout="@layout/layout_vitals_section"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
